@@ -2,9 +2,9 @@
   "name": "app-webserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server",
     "dev": "nodemon server -e js,hbs,css,html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
